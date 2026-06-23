@@ -3,5 +3,5 @@ def boot(args)
 end
 
 def tick(args)
-  ::FFI::CExt::square(42.0)
+  puts ::FFI::CExt::square(42.0)
 end
